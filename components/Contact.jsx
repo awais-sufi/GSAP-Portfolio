@@ -12,7 +12,7 @@ const Contact = () => {
   const contactSectionRef = useRef(null);
 
   useEffect(() => {
-    let ctx = gsap.context(() => {
+    const ctx = gsap.context(() => {
       gsap.from(containerRef.current, {
         y: 60,
         opacity: 0,
@@ -57,19 +57,20 @@ const Contact = () => {
       icon: <Mail size={32} />,
       title: "Email Me",
       desc: "Reach out anytime and I’ll get back within 24 hours.",
-      action: "mailto:awais6javaid@gmail.com",
+      action:
+        "mailto:awais6javaid@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Awais,",
     },
     {
       icon: <Linkedin size={32} />,
       title: "LinkedIn",
       desc: "Let’s connect professionally and talk opportunities.",
-      action: "https://www.linkedin.com/in/awaisjavaid",
+      action: "https://www.linkedin.com/in/awaisali-exe1",
     },
     {
       icon: <Github size={32} />,
       title: "GitHub",
       desc: "Explore my work, open source projects, and contributions.",
-      action: "https://github.com/awaisjavaid",
+      action: "https://github.com/awais-sufi",
     },
   ];
 
@@ -94,8 +95,9 @@ const Contact = () => {
             key={item.title}
             ref={(el) => (cardsRef.current[i] = el)}
             href={item.action}
-            target="_blank"
-            rel="noopener noreferrer"
+            {...(item.action.startsWith("mailto:")
+              ? {}
+              : { target: "_blank", rel: "noopener noreferrer" })}
             className="group p-6 rounded-2xl shadow-xl border border-white/20 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg transition-all duration-300 transform hover:-translate-y-2 hover:scale-[1.02] hover:shadow-2xl"
           >
             <div className="flex items-center gap-4 mb-4">
@@ -113,14 +115,17 @@ const Contact = () => {
         ))}
       </div>
 
-      <motion.a
-        href="mailto:awais6javaid@gmail.com"
+      <motion.button
+        onClick={() => {
+          window.location.href =
+            "mailto:awais6javaid@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Awais,";
+        }}
         whileHover={{ scale: 1.08, rotate: -2 }}
         whileTap={{ scale: 0.95 }}
         className="mt-20 inline-flex items-center gap-3 px-7 py-4 bg-gradient-to-r from-indigo-600 to-pink-500 hover:from-pink-600 hover:to-yellow-500 text-white text-lg font-semibold rounded-full transition-all duration-300 shadow-2xl"
       >
         <Send size={20} /> Get in Touch
-      </motion.a>
+      </motion.button>
     </section>
   );
 };

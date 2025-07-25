@@ -13,24 +13,24 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Portfolio Website",
-      desc: "Personal site to showcase projects, built with Next.js and GSAP.",
-      url: "#",
+      title: "Property-Pulse",
+      desc: "Find your perfect rental property with Property Pulse, the leading platform for real estate listings and property management.",
+      url: "https://property-pulse-nextjs-seven.vercel.app/",
     },
     {
-      title: "E-commerce Store",
-      desc: "Modern UI store with cart, filtering, and animations.",
-      url: "#",
+      title: "Halal-Way",
+      desc: "I believe in building a relationship that aligns with Islamic values — with mutual respect, clear intentions, and the goal of marriage (nikah). I value honesty, commitment, and family involvement to keep things halal",
+      url: "https://halal-way.vercel.app/",
     },
     {
-      title: "Dashboard UI",
-      desc: "Analytics dashboard with chart visualizations and live updates.",
-      url: "#",
+      title: "Rent-Cars",
+      desc: "Find, book and rent a car Easily",
+      url: "https://rent-cars-in-react.vercel.app/",
     },
     {
-      title: "Blog Platform",
-      desc: "Full-featured blog with markdown editor and dynamic routes.",
-      url: "#",
+      title: "German-Care-Brigee",
+      desc: "Empowerment Through Employment: Launch Your Career in Germany",
+      url: "https://german-care-brigee.vercel.app/",
     },
   ];
 
