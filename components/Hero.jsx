@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ExternalLink } from "lucide-react"; // Icon added here
+import Link from "next/link";
 
 export default function Hero() {
   const titleRef = useRef(null);
@@ -42,10 +43,6 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, []);
 
-  const openResume = () => {
-    window.open("https://drive.google.com/your-resume-link", "_blank");
-  };
-
   return (
     <section className="relative h-screen w-full flex items-center justify-center bg-transparent px-6 text-center">
       <div className="max-w-4xl space-y-8">
@@ -66,14 +63,15 @@ export default function Hero() {
           }}
         />
 
-        <button
-          ref={buttonRef}
-          onClick={openResume}
-          className="group inline-flex items-center gap-2 text-base font-semibold px-6 py-3 rounded-lg border border-pink-500 text-pink-400 hover:text-white hover:bg-pink-500 transition duration-300 transform hover:-translate-y-1 hover:shadow-lg"
+        <a
+          href="https://drive.google.com/file/d/1IrAmaGfWkPp5Ldq9EyPo-In9_qKzazR8/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex items-center gap-2 text-base font-semibold px-6 py-3 rounded-lg border border-pink-500 text-pink-400 hover:text-white hover:bg-pink-500 transition duration-300 transform hover:-translate-y-1 hover:shadow-lg cursor-pointer"
         >
           View <span className="text-white font-bold">Resume</span>
           <ExternalLink className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-        </button>
+        </a>
       </div>
     </section>
   );
