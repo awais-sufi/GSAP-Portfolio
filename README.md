@@ -34,7 +34,7 @@ Hi, I'm **Awais Ali**, a developer who transforms ideas into beautiful, scalable
 
 ## 🔗 Live Site
 
-👉 [Visit Portfolio](https://your-portfolio-domain.com)
+👉 [Visit Portfolio](https://awais-ali-dev.vercel.app/)
 
 ## 📄 Resume
 
@@ -45,9 +45,9 @@ You can view or download my resume here:
 
 Feel free to reach out:
 
-- 📧 Email: [youremail@example.com](mailto:youremail@example.com)
-- 💼 LinkedIn: [linkedin.com/in/awais-ali](https://linkedin.com/in/awais-ali)
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
+- 📧 Email: [youremail@example.com](mailto:awais6javaid@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/awais-ali](https://www.linkedin.com/in/awaisali-exe1)
+- 🐦 Twitter: [@yourhandle](https://x.com/awais_sufii)
 
 ---
 
