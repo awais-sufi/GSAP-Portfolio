@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Awais Ali — Portfolio
 
-## Getting Started
+Welcome to my developer portfolio!  
+I'm a passionate **Full-Stack Developer** specializing in the **MERN stack** and building high-performance **mobile apps with React Native**. This portfolio showcases my featured projects, skills, and resume.
 
-First, run the development server:
+## 🚀 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Hi, I'm **Awais Ali**, a developer who transforms ideas into beautiful, scalable digital experiences.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🌐 Full-stack web apps with **MongoDB, Express, React, Node.js**
+- 📱 Cross-platform mobile apps using **React Native**
+- 🎨 Clean UI/UX with responsive design
+- ⚡ Performance-focused, user-centered development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🖥️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> **Languages & Tools**
 
-## Learn More
+- JavaScript (ES6+), TypeScript
+- React.js, Next.js
+- React Native, Expo
+- Node.js, Express.js
+- MongoDB, Mongoose
+- Tailwind CSS, Sass
+- Git, GitHub, Vercel, Firebase
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Portfolio Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🌟 Hero section with animated intro
+- 📄 Resume viewer with external Google Drive link
+- 🧩 Projects section (optional: with live demos & source links)
+- 🌙 Dark mode friendly
+- ⚙️ Built using **Next.js + Tailwind CSS**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔗 Live Site
 
-## Deploy on Vercel
+👉 [Visit Portfolio](https://your-portfolio-domain.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Resume
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can view or download my resume here:  
+[📄 View Resume (Google Drive)](https://drive.google.com/file/d/1IrAmaGfWkPp5Ldq9EyPo-In9_qKzazR8/view?usp=sharing)
+
+## 📬 Contact
+
+Feel free to reach out:
+
+- 📧 Email: [youremail@example.com](mailto:youremail@example.com)
+- 💼 LinkedIn: [linkedin.com/in/awais-ali](https://linkedin.com/in/awais-ali)
+- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
+
+---
+
+> 💡 _This portfolio is open source and built with ❤️ using React & Next.js._
+
